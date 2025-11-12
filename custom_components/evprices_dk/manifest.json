@@ -1,8 +1,8 @@
 {
-  "domain": "fuelprices_dk",
-  "name": "Fuelprices DK",
-  "documentation": "https://github.com/stofakiller/FuelpricesNEW_DK",
-  "issue_tracker": "https://github.com/stofakiller/FuelpricesNEW_DK/issues",
+  "domain": "evprices_dk",
+  "name": "EVprices DK",
+  "documentation": "https://github.com/stofakiller/EVprices_DK",
+  "issue_tracker": "https://github.com/stofakiller/EVprices_DK/issues",
   "dependencies": [],
   "codeowners": ["@stofakiller"],
   "requirements": ["beautifulsoup4", "html.parser"],
