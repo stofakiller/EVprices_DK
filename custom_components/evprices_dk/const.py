@@ -1,6 +1,6 @@
 CONF_CLIENT = "client"
 CONF_FUELCOMPANIES = "companies"
-CONF_FUELTYPES = "evtypes"
+CONF_FUELTYPES = "fueltypes"
 CONF_UPDATE_INTERVAL = "update_interval"
 CONF_PLATFORM = "sensor"
 CREDITS = [
