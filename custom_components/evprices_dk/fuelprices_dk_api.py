@@ -8,18 +8,34 @@ _LOGGER: logging.Logger = logging.getLogger(__package__)
 _LOGGER = logging.getLogger(__name__)
 
 DEFAULT_PRICE_TYPE = "pump"
-DIESEL = "diesel"
-DIESEL_PLUS = "diesel+"
-ELECTRIC = "electric"
-OCTANE_95 = "oktan 95"
-OCTANE_95_PLUS = "oktan 95+"
-OCTANE_100 = "oktan 100"
+
+EV_EL = "EV-EL"
+EVINY = "Eviny"
+NRGi = "NRGi"
+RECHARGE = "Recharge"
+UNO_X = "Uno-X"
+TESLA = "Tesla"
+NORLYS = "Norlys"
+OK = "OK"
+SHELL = "Shell/DCC"
+IONITY = "Ionity"
+CIRCLEK = "CircleK"
+Q8 = "Q8"
+POWERGO = "PowerGo"
+STELLA = "Stella"
+EDF = "EDF"
+E_ON = "E.ON"
+EWII = "EWII"
+ALLEGO = "Allego"
+FASTNED = "FastNed"
+CLEVER = "Clever"
+
 FUEL_COMPANIES = {
-    "circlek": {
-        "name": "Circle K",
-        "url": "https://www.circlek.dk/priser",
+    "elbiil": {
+        "name": "Elbiil",
+        "url": "https://www.elbiil.dk/opladning/opladning-paa-farten",
         "products": {
-            OCTANE_95: {"name": "miles 95"},
+            EV_EL: {"name": "EV-EL"},
             OCTANE_95_PLUS: {"name": "miles+ 95"},
             DIESEL: {"name": "miles Diesel"},
             DIESEL_PLUS: {"name": "miles+ Diesel"},
