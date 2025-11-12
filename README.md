@@ -15,7 +15,7 @@ With EVprices DK it is possible to track EVprices in Denmark.
 At this ealy stage, it's by adding this repository manual in HACS...
 
 ## Configuration
-EVcompanies:
+fueltypes:
 - EV-EL
 - Eviny
 - NRGi
@@ -38,8 +38,8 @@ EVcompanies:
 - Clever
 
 
-From this - soo far - EVtype:
-- Electric
+Companies:
+- Elbiil
 
   
 ## Configuration
