@@ -84,8 +84,8 @@ class fuelParser:
                     )
         return products
 
-    # CIRCLE K
-    def circlek(self, url, products):
+    # ELBIIL
+    def elbiil(self, url, products):
         return self._getDataFromTable(url, products, 1, 2)
 
     # SHELL
