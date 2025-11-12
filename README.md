@@ -7,32 +7,41 @@ Forked from J-Lindvig, he did a very good job, but sadly not maintained any long
 
 Link: https://github.com/J-Lindvig/Fuelprices_DK
 
-# Fuelprices NEW DK
+# EVprices DK
 ## Introduction
-With Fuelprices_NEW DK it is possible to track fuelprices in Denmark.
+With EVprices DK it is possible to track EVprices in Denmark.
 
 ## Installation
 At this ealy stage, it's by adding this repository manual in HACS...
 
 ## Configuration
-In the default configuration it will track the following fueltypes:
-- Octane 95
-- Octane 95+ (additives)
-- Octane 100
-- Diesel
-- Diesel+ (additives)
+EVcompanies:
+- EV-EL
+- Eviny
+- NRGi
+- Recharge
+- Uno-X
+- Tesla
+- Norlys
+- OK
+- Shell/DCC
+- Ionity
+- CircleK
+- Q8
+- PowerGo
+- Stella
+- EDF
+- E.ON
+- EWII
+- Allego
+- FastNed
+- Clever
+
+
+From this - soo far - EVtype:
 - Electric
 
-From these fuelcompanies:
-- Circle K
-- F24 (Not working yet)
-- Go'On
-- ingo
-- OIL! tank & go (Not working yet)
-- OK
-- Q8
-- Shell (Not working yet, and i can so far only find business/list prices)
-
+  
 ## Configuration
 ```yaml
 fuelprices_dk:
