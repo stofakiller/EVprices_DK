@@ -30,6 +30,13 @@ ALLEGO = "Allego"
 FASTNED = "FastNed"
 CLEVER = "Clever"
 
+DIESEL = "diesel"
+DIESEL_PLUS = "diesel+"
+ELECTRIC = "electric"
+OCTANE_95 = "oktan 95"
+OCTANE_95_PLUS = "oktan 95+"
+OCTANE_100 = "oktan 100"
+
 FUEL_COMPANIES = {
     "elbiil": {
         "name": "Elbiil",
